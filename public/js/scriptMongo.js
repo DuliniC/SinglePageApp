@@ -1,3 +1,8 @@
+let socket = io();
+socket.on('number', (message) => {
+    console.log('Active User Count: ' + message);
+});
+
 const addCards = (items) => {
     items.forEach(item => {
         let itemToAppend = '<div class="col s6 center-align">' +
