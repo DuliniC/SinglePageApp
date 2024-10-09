@@ -28,7 +28,7 @@ describe("Cuisine GET API Testing", function () {
   });
 });
 
-describe("Cuisine GET API Testing", function () {
+describe("Cuisine POST API Testing", function () {
   var url = "http://localhost:3000/api/cuisine";
   let validRequest = {
     title: "Butter Chicken",
